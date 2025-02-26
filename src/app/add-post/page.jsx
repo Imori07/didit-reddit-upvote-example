@@ -29,7 +29,7 @@ export default async function Home() {
   if (!session) {
     return (
       <div className="max-w-screen-lg mx-auto p-4 mt-10">
-        You need to login to create a post <LoginButton />
+        You need to login to create a postt <LoginButton />
       </div>
     );
   }
